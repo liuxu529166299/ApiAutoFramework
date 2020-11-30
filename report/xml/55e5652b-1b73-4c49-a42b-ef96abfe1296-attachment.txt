@@ -1,0 +1,2 @@
+INFO     logger:test_case1.py:32 替换body中的空格换行特殊字符开始。。。。
+INFO     logger:operator_Common.py:28 执行get请求开始。。。。。。。。。。。。

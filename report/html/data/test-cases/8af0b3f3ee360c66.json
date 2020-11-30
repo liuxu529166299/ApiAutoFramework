@@ -1,0 +1,83 @@
+{
+  "uid" : "8af0b3f3ee360c66",
+  "name" : "test_get_commonapi[case2]",
+  "fullName" : "test_case.test_case.TestCase#test_get_commonapi",
+  "historyId" : "aedb2de88cdb602d9b743d2487904edd",
+  "time" : {
+    "start" : 1606565191546,
+    "stop" : 1606565191643,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3482bcc37e2a246c",
+      "name" : "log",
+      "source" : "3482bcc37e2a246c.txt",
+      "type" : "text/plain",
+      "size" : 878
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V3922JD"
+  }, {
+    "name" : "thread",
+    "value" : "1592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['http://39.98.138.157:5000/api/getuserinfo', None, '{\"token\": \"$loginvar.token$\"}', 'get', 'url', '17890', \"$.data[0]['userid']\", 'uservar']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "388b094dc1f87f62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606564674750,
+        "stop" : 1606564674832,
+        "duration" : 82
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8af0b3f3ee360c66.json",
+  "parameterValues" : [ "['http://39.98.138.157:5000/api/getuserinfo', None, '{\"token\": \"$loginvar.token$\"}', 'get', 'url', '17890', \"$.data[0]['userid']\", 'uservar']" ]
+}

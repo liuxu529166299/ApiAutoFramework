@@ -1,0 +1,73 @@
+{
+  "uid" : "23061202fe45a89a",
+  "name" : "test_get_commonapi[case10]",
+  "fullName" : "test_case.test_case.TestCase#test_get_commonapi",
+  "historyId" : "5146ab2812c45e72db6baa34ae5daa5e",
+  "time" : {
+    "start" : 1606564675514,
+    "stop" : 1606564675611,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7207a8ea2725558",
+      "name" : "log",
+      "source" : "e7207a8ea2725558.txt",
+      "type" : "text/plain",
+      "size" : 878
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V3922JD"
+  }, {
+    "name" : "thread",
+    "value" : "19928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['http://39.98.138.157:5000/api/getuserinfo', None, '{\"token\": \"$loginvar.token$\"}', 'get', 'url', '17890', \"$.data[0]['userid']\", 'uservar']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23061202fe45a89a.json",
+  "parameterValues" : [ "['http://39.98.138.157:5000/api/getuserinfo', None, '{\"token\": \"$loginvar.token$\"}', 'get', 'url', '17890', \"$.data[0]['userid']\", 'uservar']" ]
+}

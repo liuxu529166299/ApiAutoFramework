@@ -1,0 +1,83 @@
+{
+  "uid" : "d4fe2c3b0bf0f442",
+  "name" : "test_get_commonapi[case3]",
+  "fullName" : "test_case.test_case.TestCase#test_get_commonapi",
+  "historyId" : "203df5616ea3f8a91864f36a17be68e9",
+  "time" : {
+    "start" : 1606565191649,
+    "stop" : 1606565191750,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a975bde7ba54f84c",
+      "name" : "log",
+      "source" : "a975bde7ba54f84c.txt",
+      "type" : "text/plain",
+      "size" : 2433
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V3922JD"
+  }, {
+    "name" : "thread",
+    "value" : "1592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case",
+    "value" : "['http://39.98.138.157:5000/api/addcart', '{\"userid\":$uservar.data[0].userid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.result', '/']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9a9c507307057f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606564674837,
+        "stop" : 1606564674924,
+        "duration" : 87
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4fe2c3b0bf0f442.json",
+  "parameterValues" : [ "['http://39.98.138.157:5000/api/addcart', '{\"userid\":$uservar.data[0].userid$,\"openid\":\"$uservar.data[0].openid$\",\"productid\":$productvar.data[0].productid$}', '{\"token\": \"$loginvar.token$\",\"content-type\": \"application/json\"}', 'post', 'json', 'success', '$.result', '/']" ]
+}

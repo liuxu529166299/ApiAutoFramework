@@ -1,0 +1,4 @@
+INFO     logger:test_case.py:33 替换body中的空格换行特殊字符开始。。。。
+INFO     logger:test_case.py:36 转换存在可变变量开始。。。。
+INFO     logger:operator_Common.py:19 执行post请求开始。。。。。。。。。。。。。
+INFO     logger:test_case.py:58 多个json数据开始解析。。。。。。

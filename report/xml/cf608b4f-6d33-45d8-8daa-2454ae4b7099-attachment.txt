@@ -1,0 +1,6 @@
+INFO     logger:test_case.py:33 替换body中的空格换行特殊字符开始。。。。
+INFO     logger:test_case.py:36 转换存在可变变量开始。。。。
+INFO     logger:convertoperator.py:18 找出'$'存在可变变量区间块替换。。。。
+INFO     logger:operator_Common.py:28 执行get请求开始。。。。。。。。。。。。
+INFO     logger:test_case.py:58 多个json数据开始解析。。。。。。
+INFO     logger:test_case.py:66 多个预期值判言。。。。。。。

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'success1' == 'success'\n  - success\n  + success1\n  ?        +",
+      "children" : [ {
+        "name" : "test_get_commonapi[case0]",
+        "uid" : "496e75738d8da403",
+        "parentUid" : "f1677b0006ff6d9be4835081fa602486",
+        "status" : "failed",
+        "time" : {
+          "start" : 1606565191112,
+          "stop" : 1606565191213,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['http://39.98.138.157:5000/api/login', '{\"username\":\"admin\",\"password\":\"123456\"}', '{\"content-type\": \"application/json\"}', 'post', 'json', 'success1', '$.msg', 'loginvar']" ]
+      } ],
+      "uid" : "f1677b0006ff6d9be4835081fa602486"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
